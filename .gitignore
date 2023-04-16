@@ -1,0 +1,9 @@
+/data
+.idea/
+*/__pycache__/*
+*.zip
+*.log
+*.pyc
+*.json
+/models/checkpoint-2024
+/models/checkpoint-7048
