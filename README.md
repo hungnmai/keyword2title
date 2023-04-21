@@ -29,8 +29,8 @@ pip install -r requirements.txt
 ### 2. Run application
 We provide 2 models that is T5 and BART to generate title from keywords. 
 Before running application you have to download them at here:
-* [BART](https://drive.google.com/file/d/1vscEhytL3_cfi963tpIXbnN6NyBTucBB/view?usp=share_link)
-* [T5](https://drive.google.com/file/d/1i8xrv9FkqDqP12YwYulp4hcj9YMtvWK1/view?usp=share_link)
+* [BART](https://drive.google.com/file/d/16covnArUu4yYSD5eXIuPLrruEL6enCF0/view?usp=share_link)
+* [T5](https://drive.google.com/file/d/1HdKasGoEKYAQ79fI8k0zo9i2O99f_cPY/view?usp=share_link)
 
 Then, you need to unzip and place 2 models in [models](models) folder. For example:
 - models
