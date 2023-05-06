@@ -1,8 +1,9 @@
+import nltk
 import logging
 from fastapi import FastAPI
 from ai.bart_kw_title import gen
 from ai.process_data import replace_blacklist, upper_title
-
+nltk.download('punkt')
 app = FastAPI()
 
 logging.basicConfig(filename="app.log", format='%(asctime)s - %(message)s', level=logging.INFO)

@@ -6,12 +6,13 @@ from path import AI_PATH
 
 # load bad words and good words
 try:
-    with open(os.path.join(AI_PATH, "generation/blacklist.txt"), "r") as fp:
+    with open(os.path.join(AI_PATH, "blacklist.txt"), "r") as fp:
         blacklist = [word.strip().lower() for word in fp.readlines()]
 
-    with open(os.path.join(AI_PATH, "generation/whitelist.txt"), "r") as fp:
+    with open(os.path.join(AI_PATH, "whitelist.txt"), "r") as fp:
         whitelist = [word.strip() for word in fp.readlines()]
 except Exception as e:
+    print("Error: ", str(e))
     print("Could not load blacklist and whitelist files!")
     blacklist = []
     whitelist = []
