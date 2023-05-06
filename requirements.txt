@@ -6,3 +6,4 @@ transformers==4.22.1
 datasets
 sentencepiece
 validators
+torch
